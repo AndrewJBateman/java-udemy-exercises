@@ -40,16 +40,25 @@ public class Main {
 //        Boolean result = PlayingCat.isCatPlaying(false, 35);
 //        System.out.println(result);
 
-        int result1 = NumberOfDaysInMonth.getDaysInMonth(1, 2020);
-        System.out.println(result1);
-        int result2 = NumberOfDaysInMonth.getDaysInMonth(2, 2020);
-        System.out.println(result2);
-        int result3 = NumberOfDaysInMonth.getDaysInMonth(2, 2018);
-        System.out.println(result3);
-        int result4 = NumberOfDaysInMonth.getDaysInMonth(-1, 2020);
-        System.out.println(result4);
-        int result5 = NumberOfDaysInMonth.getDaysInMonth(1, -2020);
-        System.out.println(result5);
+//        int result1 = NumberOfDaysInMonth.getDaysInMonth(1, 2020);
+//        System.out.println(result1);
+//        int result2 = NumberOfDaysInMonth.getDaysInMonth(2, 2020);
+//        System.out.println(result2);
+//        int result3 = NumberOfDaysInMonth.getDaysInMonth(2, 2018);
+//        System.out.println(result3);
+//        int result4 = NumberOfDaysInMonth.getDaysInMonth(-1, 2020);
+//        System.out.println(result4);
+//        int result5 = NumberOfDaysInMonth.getDaysInMonth(1, -2020);
+//        System.out.println(result5);
+
+//        int result = SumOdd.sumOdd(100, 1000);
+//        System.out.println(result);
+//        int result = EvenDigitSum.getEvenDigitSum(-22);
+//        System.out.println(result);
+//        boolean result = SharedDigit.getEvenDigitSum(15, 55);
+//        System.out.println(result);
+        boolean result = LastDigitChecker.hasSameLastDigit(9, 99, 999);
+        System.out.println(result);
 
     }
 }
