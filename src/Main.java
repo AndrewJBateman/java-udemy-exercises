@@ -57,8 +57,21 @@ public class Main {
 //        System.out.println(result);
 //        boolean result = SharedDigit.getEvenDigitSum(15, 55);
 //        System.out.println(result);
-        boolean result = LastDigitChecker.hasSameLastDigit(9, 99, 999);
-        System.out.println(result);
-
+//        boolean result = LastDigitChecker.hasSameLastDigit(9, 99, 999);
+//        System.out.println(result);
+//            int result = GreatestCommonDivisor.getGreatestCommonDivisor(81, 153);
+//        System.out.println(result);
+//        boolean result = PerfectNumber.isPerfectNumber(-1);
+//        System.out.println(result);
+        NumberToWords.numberToWords(123);
+        NumberToWords.numberToWords(1010);
+        NumberToWords.numberToWords(1000);
+        NumberToWords.numberToWords(-32);
+        NumberToWords.numberToWords(0);
+        System.out.println(NumberToWords.reverse(-121));
+        System.out.println(NumberToWords.reverse(-2));
+        System.out.println(NumberToWords.reverse(1212));
+        System.out.println(NumberToWords.reverse(1234));
+        System.out.println(NumberToWords.reverse(100));
     }
 }
