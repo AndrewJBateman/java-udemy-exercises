@@ -89,6 +89,13 @@ public class Main {
 //        System.out.println("0,5,6, false " + result7);
 //        Boolean result8 = FlourPackProblem.canPack(2, 10, 18);
 //        System.out.println("2,10,18, true " + result8);
-        System.out.println(LargestPrime.getLargestPrime(21));
+//        System.out.println(LargestPrime.getLargestPrime(21));
+//        System.out.println(LargestPrime.getLargestPrime(217));
+//        System.out.println(LargestPrime.getLargestPrime(0));
+//        System.out.println(LargestPrime.getLargestPrime(45));
+//        System.out.println(LargestPrime.getLargestPrime(-1));
+//        DiagonalStar.printSquareStar(8);
+//        ReadingUserInputChallenge.ReadingUserInputChallenge();
+        MinimumAndMaximumChallenge.MinAndMaxChallenge();
     }
 }
