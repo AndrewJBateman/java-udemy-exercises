@@ -96,6 +96,27 @@ public class Main {
 //        System.out.println(LargestPrime.getLargestPrime(-1));
 //        DiagonalStar.printSquareStar(8);
 //        ReadingUserInputChallenge.ReadingUserInputChallenge();
-        MinimumAndMaximumChallenge.MinAndMaxChallenge();
+//        MinimumAndMaximumChallenge.MinAndMaxChallenge();
+//        InputCalculator.inputThenPrintSumAndAverage();
+        int result1 = PaintJob.getBucketCount(-3.4, 2.1, 1.5, 2);
+        System.out.println("result: " + result1);
+        int result2 = PaintJob.getBucketCount(3.4, 2.1, 1.5, 2);
+        System.out.println("result: " + result2);
+        int result3 = PaintJob.getBucketCount(2.75, 3.25, 2.5, 1);
+        System.out.println("result: " + result3);
+
+        int result4 = PaintJob.getBucketCount(-3.4, 2.1, 1.5);
+        System.out.println("result: " + result4);
+        int result5 = PaintJob.getBucketCount(3.4, 2.1, 1.5);
+        System.out.println("result: " + result5);
+        int result6 = PaintJob.getBucketCount(7.25,4.3, 2.35);
+        System.out.println("result: " + result6);
+
+        int result7 = PaintJob.getBucketCount(3.4,1.5);
+        System.out.println("result: " + result7);
+        int result8 = PaintJob.getBucketCount(6.26, 2.2);
+        System.out.println("result: " + result8);
+        int result9 = PaintJob.getBucketCount(3.26, 0.75);
+        System.out.println("result: " + result9);
     }
 }
