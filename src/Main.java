@@ -98,25 +98,34 @@ public class Main {
 //        ReadingUserInputChallenge.ReadingUserInputChallenge();
 //        MinimumAndMaximumChallenge.MinAndMaxChallenge();
 //        InputCalculator.inputThenPrintSumAndAverage();
-        int result1 = PaintJob.getBucketCount(-3.4, 2.1, 1.5, 2);
-        System.out.println("result: " + result1);
-        int result2 = PaintJob.getBucketCount(3.4, 2.1, 1.5, 2);
-        System.out.println("result: " + result2);
-        int result3 = PaintJob.getBucketCount(2.75, 3.25, 2.5, 1);
-        System.out.println("result: " + result3);
+//        int result1 = PaintJob.getBucketCount(-3.4, 2.1, 1.5, 2);
+//        System.out.println("result: " + result1);
+//        int result2 = PaintJob.getBucketCount(3.4, 2.1, 1.5, 2);
+//        System.out.println("result: " + result2);
+//        int result3 = PaintJob.getBucketCount(2.75, 3.25, 2.5, 1);
+//        System.out.println("result: " + result3);
+//
+//        int result4 = PaintJob.getBucketCount(-3.4, 2.1, 1.5);
+//        System.out.println("result: " + result4);
+//        int result5 = PaintJob.getBucketCount(3.4, 2.1, 1.5);
+//        System.out.println("result: " + result5);
+//        int result6 = PaintJob.getBucketCount(7.25,4.3, 2.35);
+//        System.out.println("result: " + result6);
+//
+//        int result7 = PaintJob.getBucketCount(3.4,1.5);
+//        System.out.println("result: " + result7);
+//        int result8 = PaintJob.getBucketCount(6.26, 2.2);
+//        System.out.println("result: " + result8);
+//        int result9 = PaintJob.getBucketCount(3.26, 0.75);
+//        System.out.println("result: " + result9);
+        VipCustomer person1 = new VipCustomer();
+        System.out.println(person1.getName());
 
-        int result4 = PaintJob.getBucketCount(-3.4, 2.1, 1.5);
-        System.out.println("result: " + result4);
-        int result5 = PaintJob.getBucketCount(3.4, 2.1, 1.5);
-        System.out.println("result: " + result5);
-        int result6 = PaintJob.getBucketCount(7.25,4.3, 2.35);
-        System.out.println("result: " + result6);
+        VipCustomer person2 = new VipCustomer("Noddy", 2500.00);
+        System.out.println(person2.getName());
 
-        int result7 = PaintJob.getBucketCount(3.4,1.5);
-        System.out.println("result: " + result7);
-        int result8 = PaintJob.getBucketCount(6.26, 2.2);
-        System.out.println("result: " + result8);
-        int result9 = PaintJob.getBucketCount(3.26, 0.75);
-        System.out.println("result: " + result9);
+        VipCustomer person3 = new VipCustomer("Mickey", 100.00, "noddy1@email.com");
+        System.out.println(person3.getName());
+        System.out.println(person3.getEmailAddress());
     }
 }
