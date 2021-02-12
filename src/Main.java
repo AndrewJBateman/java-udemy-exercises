@@ -118,14 +118,28 @@ public class Main {
 //        System.out.println("result: " + result8);
 //        int result9 = PaintJob.getBucketCount(3.26, 0.75);
 //        System.out.println("result: " + result9);
-        VipCustomer person1 = new VipCustomer();
-        System.out.println(person1.getName());
+//        VipCustomer person1 = new VipCustomer();
+//        System.out.println(person1.getName());
+//
+//        VipCustomer person2 = new VipCustomer("Noddy", 2500.00);
+//        System.out.println(person2.getName());
+//
+//        VipCustomer person3 = new VipCustomer("Mickey", 100.00, "noddy1@email.com");
+//        System.out.println(person3.getName());
+//        System.out.println(person3.getEmailAddress());
+        Wall wall1 = new Wall("West");
+        Wall wall2 = new Wall("East");
+        Wall wall3 = new Wall("South");
+        Wall wall4 = new Wall("North");
 
-        VipCustomer person2 = new VipCustomer("Noddy", 2500.00);
-        System.out.println(person2.getName());
+        Ceiling ceiling = new Ceiling(12,55);
 
-        VipCustomer person3 = new VipCustomer("Mickey", 100.00, "noddy1@email.com");
-        System.out.println(person3.getName());
-        System.out.println(person3.getEmailAddress());
+        Bed bed = new Bed("Modern",4,3,2,1);
+        Lamp lamp = new Lamp("Classic",false,75);
+
+        Bedroom bedroom = new Bedroom("Samuel",wall1,wall2,wall3,wall4,ceiling,bed,lamp);
+        bedroom.makeBed();
+
+        bedroom.getLamp().turnOn();
     }
 }
