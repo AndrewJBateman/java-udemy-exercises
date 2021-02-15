@@ -3,6 +3,7 @@ public class Printer {
     private int pagesPrinted;
     private boolean duplex;
 
+    // constructor to set values for fields
     public Printer(int tonerLevel, boolean duplex) {
         this.tonerLevel = tonerLevel > -1 ? tonerLevel : -1;
         this.duplex = duplex;
