@@ -5,6 +5,7 @@ public class HealthyBurger extends Hamburger {
     private String healthyExtra2Name;
     private double healthyExtra2Price;
 
+    // constructor with 2 inputs
     public HealthyBurger(String meat, double price) {
         super( "Healthy",meat, price, "brown rye bread");
     }
